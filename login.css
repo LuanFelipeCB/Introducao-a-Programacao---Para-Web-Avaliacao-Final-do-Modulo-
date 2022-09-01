@@ -1,0 +1,46 @@
+body{
+    background-color: blue;
+}
+
+fieldset{
+    background-color: aqua;
+    width: 350px;
+    height: 350px;
+}
+
+#formularioLogin{
+    padding-top:90px;
+    padding-bottom: 90px;
+}
+
+#formularioCadastro{
+    padding-top:90px;
+    padding-bottom: 90px;
+}
+
+#divFieldset{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+/*#divCrie{
+   ARRUMAR ALTURA DO TITULO 'CRIAR CONTA' 
+}
+*/
+
+#divRecados{ /*pag de recados -->*/
+    background-color: aqua;
+    width: 1150px;
+    height: 410px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+table{ /*recados -->*/
+
+   border-collapse: collapse;
+   width: 1000px;
+   margin-top: 15px;
+ 
+}
+

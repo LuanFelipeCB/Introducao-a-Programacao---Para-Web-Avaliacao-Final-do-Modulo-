@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Recados</title>
+</head>
+
+<body>
+    <center>
+        <form id="formularioRecados">
+
+            <div>
+                <h2>Meus recados</h2>
+            </div>
+
+            <input type="text" name="descricao" id="descricao" placeholder="Digite aqui uma descrição" required>
+            <input type="text" name="detalhamento" id="detalhamento" placeholder="Digite aqui o detalhamento" required>
+            <input type="submit" value="Salvar Recado">
+
+           <!--<table border="1px">
+                <td align="center">#</td>
+                <td align="center">Descrição</td>
+                <td align="center">Detalhamento</td>
+                <td align="center">Ação</td>
+            </table>
+--> 
+        </form>
+
+        <div id="recados">
+            <table border="1px" id="tabelaDeRecados">
+                <td align="center">Ordem</td>
+                <td align="center">Descrição</td>
+                <td align="center">Detalhamento</td>
+                <td align="center">Ação</td>
+                <td>
+                <!--    <button>Editar</button>
+                    <button>Apagar</button> -->
+                </td>
+            </table>
+
+        </div>
+
+    </center>
+
+<script src="recados.js"></script>
+</body>
